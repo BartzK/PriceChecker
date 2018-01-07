@@ -1,0 +1,14 @@
+1. Configure input
+1.1 Search List:
+Use following format to specify searched phrases:
+	Source_Site;category_name;searched_name
+example:
+	Ceneo;Gry_Nintendo_Switch;Rayman
+
+1.2 Black List:
+Use following format to specify black listed phrases:
+	searched_name
+example:
+	World of Final Fantasy (Gra PS4)
+
+2. Output

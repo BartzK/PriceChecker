@@ -1,0 +1,14 @@
+Gry_Nintendo_Switch;rayman
+Gry_Nintendo_Switch;bayonetta
+Gry_Nintendo_Switch;wonder boy
+Gry_Playstation_4;ni no kuni
+Gry_Playstation_4;final fantasy
+Gry_Playstation_4;nier automata
+Gry_Playstation_4;gravity rush
+Gry_Playstation_4;grand theft auto
+Gry_Nintendo_3DS;metroid
+Gry_Nintendo_3DS;radiant historia
+Gry_Nintendo_3DS;alliance alive
+Gry_Konsolowe;tales of
+Gry_Konsolowe;fallen legion
+Gry_Konsolowe;odin sphere

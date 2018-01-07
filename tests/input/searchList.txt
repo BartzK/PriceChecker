@@ -1,0 +1,3 @@
+Gry_Nintendo_3DS;radiant historia
+Gry_Konsolowe;final fantasy
+Gry_PC;world of warcraft

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{12919a7b-dd40-412e-97a7-4eeea2c0cda8}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>PriceChecker.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="lib\Ceneo.py" />
+    <Compile Include="lib\Tools.py" />
+    <Compile Include="PriceChecker.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="documentation\help.txt" />
+    <Content Include="tests\input\blackList.txt" />
+    <Content Include="tests\input\searchList.txt" />
+    <Content Include="tests\output\output.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="documentation" />
+    <Folder Include="lib" />
+    <Folder Include="tests\" />
+    <Folder Include="tests\input" />
+    <Folder Include="tests\output" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>
